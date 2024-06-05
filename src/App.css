@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Dashboard */
+.header {
+  padding: 1rem 4rem;
+  background: #FFF;
+}
+
+.content {
+  margin: 1.4rem 1rem;
+  padding: 2rem;
+}
+
+.trigger-btn {
+  font-size: 18px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 4rem;
+  left: 1.5rem;
+  color: #FFF !important;
+  background-color: #69a37c;
+}
+
+/* Sider */
+.sider {
+  height: 100vh;
+  position: sticky !important;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #69a37c !important;
+}
+
+.logo {
+  background-color: #30814b;
+  border-radius: 50%;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px rgb(114, 114, 114);
+}
+
+.menu-bar {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 500;
+  border-right: 1px solid #69a37c !important;
+}
+
+.ant-menu-item {
+  color: #FFF !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #ffffff !important;
+  color: #69a37c !important;
+}
+
+/* Header */
+.header-icon {
+  font-size: 20px;
+  color: #69a37c;
+  cursor: pointer;
+}
+
+.header-text {
+  color: #69a37c !important;
+}
+
+/* button, and color */
+
+.ant-btn:hover {
+  color: #69a37c !important;
+  border-color: #69a37c !important;
+}
+
+.ant-btn-primary {
+  background-color: #69a37c !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #30814b !important;
+  color: #FFF;
+}
+
+.primary--color {
+  color: #69a37c !important;
+}
+
+.primary--light--color {
+  color: #85daa1 !important;
+}
+
+.secondary--color {
+  color: #86a789 !important;
+}
+
+.light--color {
+  color: #d2e3c8 !important;
+}
+
+.gray--color {
+  color: #afaeae !important;
+}
+
+.ant-search-input:focus {
+  outline: none !important;
+  border-color: #69a37c !important;
+}
+
+/* Suppliers */
+.supplier-container {
+  flex: 1;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 0 5px rgb(211, 208, 208);
+}
+
+/* Mobile Alert */
+.mobile-alert {
+  position: fixed;
+  top: 2rem;
+  left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  z-index: 9999;
+}
+
+@media (max-width: 768px) {
+  .mobile-alert h2 {
+    font-size: 24px;
+  }
+
+  .mobile-alert p {
+    font-size: 16px;
+  }
+
+}
